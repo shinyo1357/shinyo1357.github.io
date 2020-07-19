@@ -1,11 +1,12 @@
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Microsoft JhengHei";
+    font-size: 20px;
     background-color:#4c9ddf;
     background-image:url(圖片資料/背景.png);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 220px;
+    padding-top: 200px;
 }
 
 .login {
@@ -14,6 +15,7 @@ body {
     padding: 35px;
     box-shadow: 10px 10px 25px #00000080;
     text-align: center;
+    border-radius: 22px;
 }
 
 .login input{
@@ -21,4 +23,6 @@ body {
     margin: 20px auto;
     background: none;
     padding: 8px;
+    font-size: 15px;
+    border-radius: 22px;
 }
