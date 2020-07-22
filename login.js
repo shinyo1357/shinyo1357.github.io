@@ -4,10 +4,10 @@ function readtext() {
     
     if (account == "shinyogood"&&password == "2580369b")
       {
-        location.href = "https://www.google.com/"
+        window.location.href='http://www.google.com';
       }
     else
       {
-        location.href = "https://www.google.com/"
+        alert("您的帳號或密碼輸入錯咯!")
       }
 }
