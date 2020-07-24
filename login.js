@@ -4,7 +4,7 @@ function readtext() {
 
     if (account == "shinyogood" && password == "2580369b")
       {
-        window.location.replace("http://www.google.com");
+        document.location.href="http://www.google.com";
       }
     else
       {
