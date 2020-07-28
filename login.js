@@ -4,7 +4,7 @@ function readtext() {
 
     if ((account == "shinyogood" && password == "2580369b") || (account == "123" && password == "123"))
       {
-        document.location.href="http://www.google.com";
+        document.getElementById("form").innerHTML = "123";
       }
     else
       {
