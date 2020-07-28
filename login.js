@@ -4,7 +4,7 @@ function readtext() {
 
     if ((account == "shinyogood" && password == "2580369b") || (account == "123" && password == "123"))
       {
-        document.getElementById("form").innerHTML = "123";
+        document.getElementById("form").innerHTML = '<input type="button" value="123">';
       }
     else
       {
