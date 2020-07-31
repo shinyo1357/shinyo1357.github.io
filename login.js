@@ -4,7 +4,7 @@ function readtext() {
 
     if ((account == "shinyogood" && password == "2580369b") || (account == "123" && password == "123"))
       {
-        document.getElementById("form").innerHTML = '<a href="https://drive.google.com/file/d/1WJx1OGBGpFxSWOENK8r2rZL7_oAWfeaJ/view?usp=sharing" download="OOF.png"><button>快按我!</button></a>';
+        document.getElementById("form").innerHTML = '<a href="/%E5%9C%96%E7%89%87%E8%B3%87%E6%96%99/3.png" download="OOF.png"><button>快按我!</button></a>';
       }
     else
       {
